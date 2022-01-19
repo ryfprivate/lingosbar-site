@@ -11,7 +11,12 @@ let cocktailList = [
   {
     "imgSrc": "/cocktails/mojito.png",
     "title": "Mojito",
-    "desc": "Mojitos mo mojito mo"
+    "desc": "Mojito"
+  },
+  {
+    "imgSrc": "/cocktails/blue_lagoon.png",
+    "title": "Blue Lagoon",
+    "desc": "A very blue drink"
   },
   {
     "imgSrc": "/cocktails/blue_lagoon.png",
@@ -38,7 +43,7 @@ export default function Home() {
 
           <p className="text-white mt-3 text-2xl">
             Located at{' '}
-            <a className="text-blue-500 hover:text-blue-400" href="https://goo.gl/maps/YssSaZhpmWucQmrMA">128 Middle Street, Cleveland</a>
+            <a className="text-blue-500 hover:text-blue-400" href="https://goo.gl/maps/YssSaZhpmWucQmrMA" target="_blank">128 Middle Street, Cleveland</a>
           </p>
         </div>
 
